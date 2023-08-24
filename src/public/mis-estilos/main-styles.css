@@ -1,0 +1,130 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #A2DADB;
+    max-width: 400px;
+}
+
+.content-cabecera{
+    width: 100%;
+   max-width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{position: fixed;
+    
+    max-width: 400px;
+    height: 100%;
+    background-image: url(../complementos/imagenes/paredCarrara.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content-habitacion{
+    width: 100%;
+    height: 100%;
+  
+
+}
+.content-alacena{
+    margin-top:15px ;
+    width: 100%;
+    }
+
+.content-alacena img{
+    width: 100%;
+  
+}
+
+.content-heladera{
+    position: absolute;
+    width: 43%;
+    bottom:66px;
+    right:0;
+    padding:3px;
+}
+
+.content-heladera img{
+    width: 100%
+}
+
+.content-puerta{
+    position: absolute;
+    width: 40%;
+    bottom:66px;
+    left:0;
+    padding:3px;
+}
+
+.content-puerta img{
+    width: 100%
+}
+
+.content-egreso{
+    padding: 10px;
+    width: 70px;
+    
+    
+}
+
+.content-egreso img{
+    width: 100%
+}
+
+.content-ingreso{
+    padding: 10px;
+    width: 70px;
+    
+    
+}
+
+.content-ingreso img{
+    width: 100%
+}
+
+.content-stock{
+    padding: 10px;
+    width: 65px;
+    
+    
+}
+
+.content-stock img{
+    width: 100%
+}
+
+.content-menu{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    padding: 3px;
+    
+    
+    width: 71px;
+    
+    
+}
+
+.content-menu img{
+    width: 100%
+}
+
+.buttons-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+    
+  
+
+
